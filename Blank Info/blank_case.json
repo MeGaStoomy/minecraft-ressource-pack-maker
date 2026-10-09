@@ -1,0 +1,7 @@
+{
+    "when": "[displayname]",
+    "model": {
+        "type": "model",
+        "model": "item/[baseitem]/[modelname]"
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"model": {
+		"type": "condition",
+		"property": "has_component",
+		"component": "custom_name",
+		"on_true": {
+			"type": "select",
+			"property": "component",
+			"component": "custom_name",
+			"cases": [],
+			"fallback": {
+				"type": "model",
+				"model": "item/[itemname]"
+			}
+		},
+		"on_false": {
+			"type": "model",
+			"model": "item/[itemname]"
+		}
+	}
+}
